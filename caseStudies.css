@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container {
+    background-color: #173142;
+    height: 850px; 
+}
+
+/* NAVBAR - v2 */
+
+/* header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #173142;
+    padding: 15px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+
+header ul {
+    padding-top: 0;
+}
+
+header .logo img {
+    width: 130px;
+    height: auto;
+}
+
+header .logo {
+    margin-left: 190px;
+}
+
+header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+}
+
+header .navbar-icons {
+    position: relative;
+    display: inline-block;
+    padding-right: 78px;
+    padding-top: 6px;
+}
+
+.navbar-icons span {
+    height: 20px;
+    color: #71AE47;
+    padding-left: 10px;
+}
+
+header .nine30-countdown-contact {
+    display: inline-block;  
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    margin-right: 55px;
+}
+
+.countdown {
+    display: inline-block;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+    float: left;
+    text-transform: uppercase;
+}
+
+header .navbar-menu a {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 40px 30px 34px 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+header ul .navbar-submenu-icons a {
+    font-family: 'Montserrat', Helvetica, Arial;
+    font-size: 16px;
+    color: #023B31;
+    font-weight: bold;
+    padding: 15px;
+}
+
+header ul li ul {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #F0F9EA;
+    display: none;
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+header ul li ul li {
+    position: relative;
+    width: 100%;
+    border: 1px solid #d7e1d1;
+}
+
+header ul li ul li:hover {
+    background-color: #173142;
+}
+
+header ul li ul li:hover a {
+    color: #fff;
+} */
+
+/* Countdown */
+
+.countdown {
+    display: inline-block;
+    align-items: center;
+}
+
+.countdown p {
+    display: inline-block;
+    color: #F0F9EA;
+    font-weight: normal;
+    font-family: 'Termina', Helvetica, Arial;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.countdown span {
+    color: white;
+}
+
+#demo {
+    color: #71AE47;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    width: 60px;
+    font-family: 'Termina', Helvetica, Arial;
+    border: 1px solid black;
+    background-color:rgba(33, 33, 33, 0.746);
+    border-radius: 8px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.navbar-button {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 130px;
+}
+
+.navbar-button button {
+    background-color: #00796B;
+    color: #F0F9EA;
+    font-size: 16px;
+    border-radius: 27px;
+    border-color: transparent;
+    padding: 7px 12px;
+    font-family: 'Termina', Helvetica, Arial;
+    letter-spacing: 1.25px;
+   
+}
+
+.navbar-button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+/* Filter Navbar */
+
+.filter-navbar {
+    background-color: #173142;
+    padding-left: 11%;
+    height: 70px;
+}
+
+.filter-navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 70px;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.filter-navbar .select {
+    color:rgb(118, 216, 65);
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+
+
+/* Case Studies Section */
+
+.case-studies-container {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    justify-content: center;
+    gap: 64px;
+    padding-top: 70px;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.case-studies-card {
+    position: relative;
+}
+
+.case-studies-card img {
+    height: 262px;
+    width: 447px;
+    padding-bottom: 30px;
+}
+
+.case-studies-card .aquisition-button {
+    border: 1px solid transparent;
+    background-color: #EFEF3D;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, Arial;
+    display: block;
+    color: #1A2024;
+}
+
+.case-studies-card .data-analytics-button {
+    border: 1px solid transparent;
+    background-color: #A7DA83;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, Arial;
+    display: block;
+    color: #1A2024;
+}
+
+.case-studies-card .financial-management-button {
+    border: 1px solid transparent;
+    background-color: #48BFB1;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, Arial;
+    display: block;
+    color: #1A2024;
+}
+
+.case-studies-card .project-management-button {
+    border: 1px solid transparent;
+    background-color: #98C4FF;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', Helvetica, Arial;
+    display: block;
+    color: #1A2024;
+}
+
+.case-studies-card a::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.case-studies-card a {
+    text-decoration: none;
+    color: #023B31;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.case-studies-card span {
+    color: #71AE47;
+    font-weight: bolder;
+}
+
+.case-studies-card h3 {
+    font-size: 27px;
+    padding: 10px 0px 10px 10px;
+    color: #023B31;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.case-studies-card p {
+    line-height: 1.25;
+    padding: 0px 0px 10px 10px;
+    font-size: 16px;
+    color: #1A2024;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+
+
+
+
+
+
+/* Case Study Pages */
+
+.case-study-container {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.case-study-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.case-study-title h2 {
+    font-size: 40px;
+    padding-top: 175px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.case-study-title p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #525252;
+    font-weight: 500;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.case-study-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    padding-top: 40px;
+    text-align: left;
+    width: 1000px;
+}
+
+.content h3 {
+    font-size: 24px;
+    padding: 30px 0px 20px 0px;
+    color: #023B31;
+    font-weight: 700;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.caseStudy-button {
+    padding-top: 70px;
+}
+
+.caseStudy-button a {
+    text-decoration: none;
+    background-color: #023B31;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'Termina', Helvetica, Arial;
+}

@@ -1,0 +1,139 @@
+/* Additions to Navbar */
+
+.checkbtn .fa {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+
+
+/* Hero TITLE & VIDEO */
+
+.hero-title-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 237px;
+    padding-top: 170px;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    color: #f6fff0;
+    font-weight: 500;
+    font-family: 'Termina', Helvetica, Arial;
+    opacity: 1;
+}
+
+.hero-text p {
+    font-size: 16px;
+    width: 493px;
+    color:#D9EFC9;
+    margin-top: 10px;
+    line-height: 1.35;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.about-us-picture {
+    width: 756px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+
+
+/* About Us Page */
+
+.our-philosophy-container {
+    height: 1000px;
+    background-color: #FFFFFF;
+}
+
+.philosophy-title {
+    margin-left: 11%;
+    padding-top: 100px;
+}
+
+.philosophy-title h2 {
+    font-size: 44px;
+    color: #023B31;
+    padding-bottom: 20px;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.philosophy-title p {
+    color: #525252;
+    font-size: 16px;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.philosophy-content {
+    display: flex;
+    justify-content: center;
+    gap: 260px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.philosophy-image img {
+    height: 550px;
+    width: 550px;
+}
+
+.innovate-elevate-collaborate {
+    padding-top: 60px;
+}
+
+.innovate-elevate-collaborate h3 {
+    color: #81C94C;
+    font-size: 28px;
+    display: inline-block;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.innovate-elevate-collaborate hr {
+    display: inline-block;
+    margin-bottom: 7px;
+    color: #81C94C;
+    height: 2px;
+    background-color: #81C94C;
+}
+
+.collaborate hr {
+    width: 370px;
+    margin-left: 20px;
+}
+
+.innovate hr {
+    width: 420px;
+    margin-left: 20px;
+}
+
+.elevate hr {
+    width: 440px;
+    margin-left: 20px;
+}
+
+.innovate-elevate-collaborate p {
+    color: #525252;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', Helvetica, Arial;
+}

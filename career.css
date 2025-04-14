@@ -1,0 +1,395 @@
+/* Additions to Navbar */
+
+.checkbtn .fa {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+
+/* Career Page */
+
+/* Hero Image */
+
+.hero-title-image {
+    gap: 200px;
+}
+
+
+
+
+/* Employee Testimonial Section */
+
+/* * {box-sizing: border-box;} */
+
+.slideshow {
+    background-color: rgb(255,255,255);
+}
+
+.employee-title h2 {
+    font-size: 40px;
+    padding-top: 75px;
+    text-align: center;
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.slideshow-container {
+    max-width: 1275px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    padding: 55px 0px 40px 0px;
+    background-color: rgb(255,255,255);
+}
+
+.mySlides {
+    display: none;
+}
+
+.slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1150px;
+    height: 200px;
+}
+
+.slide-text h3 {
+    font-size: 30px;
+    color: #023B31;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.slide-text p {
+    font-size: 20px;
+    color:#525252;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 1.4;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.slide-text h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color:#525252;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(183, 183, 183);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color:rgba(4, 50, 73, 0.8);
+    color: white;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dots {
+    padding-bottom: 75px;
+}
+
+.active, .dot:hover {
+    background-color: rgba(4, 50, 73, 0.9);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+
+/* Benefits Section */
+
+.benefits-container {
+    height: 1550px;
+    background-color: rgb(231, 240, 216, 0.8);
+}
+
+.benefits-title {
+    padding: 100px 0px 70px 0px;
+    margin-left: 11%;
+}
+
+.benefits-title h2 {
+    font-size: 44px;
+    padding-bottom: 40px;
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.benefits-title p {
+    font-size: 18px;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.benefits-card-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 350px);
+    gap: 50px 32px;
+}
+
+.benefits-card {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(199, 199, 199);
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    transition: all .5s ease-in;
+    background-color: white;
+}
+
+.benefits-card img {
+    padding-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.benefits-card h4 {
+    font-size: 22px;
+    padding-top: 25px;
+    color: #525252;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+
+
+/* Overlay */
+
+.overlay-career {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 20px;
+    background-color: rgba(4, 50, 73, 0.9);
+}
+
+.benefits-card:hover .overlay-career {
+    opacity: 1;
+}
+
+.text-career {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 1.45;
+    font-weight: bold;
+    position: absolute;
+    height: 92%;
+    width: 90%;
+    top: 56%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: unset;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+
+
+/* Diversity Section */
+
+.diversity-title-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 800px;
+}
+
+.diversity-title {
+    width: 550px;
+    text-align: left;
+}
+
+.diversity-title h2 {
+    font-size: 38px;
+    color: #023B31;
+    padding-bottom: 30px;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.diversity-title p {
+    font-size: 16px;
+    color:#525252;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    width: 450px;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.diversity-image img {
+    height: 650px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgb(184, 190, 174);
+}
+
+
+
+/* Community Section */
+
+.community-title-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 75px;
+    height: 800px;
+}
+
+.community-title {
+    width: 550px;
+    text-align: left;
+}
+
+.community-title h2 {
+    font-size: 38px;
+    color: #023B31;
+    padding-bottom: 30px;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.community-title p {
+    font-size: 16px;
+    color:#525252;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.community-list .fa {
+    color: #023B31;
+    font-size: 28px;
+}
+
+.community-list li {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.community-image img {
+    height: 650px;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: -2px -2px -12px rgb(184, 190, 174);
+}
+
+
+
+/* Apply Section */
+
+.apply-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 200px;
+    padding-bottom: 60px;
+    background-color: rgb(231, 240, 216, 0.8);
+}
+
+.apply-image {
+    text-align: center;
+}
+
+.apply-image img {
+    height: 55%;
+    width: 55%;
+    border-radius: 20px;
+    margin-top: -70px;
+    box-shadow: 2px 2px 12px rgb(184, 190, 174);
+}
+
+.apply-title {
+    width: 650px;
+}
+
+.apply-title h2 {
+    font-size: 45px;
+    padding-bottom: 30px;
+    color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.apply-title p {
+    font-size: 16px;
+    color: #525252;
+    padding-bottom: 40px;
+    width: 550px;
+    line-height: 1.5;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.apply-title a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    padding: 12px 14px;
+    font-size: 26px;
+    border-radius: 20px;
+    background-color: #023B31;
+    font-family: 'Termina', Helvetica, Arial;
+}

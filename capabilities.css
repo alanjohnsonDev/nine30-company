@@ -1,0 +1,107 @@
+/* Additions to Navbar */
+
+.checkbtn .fa {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+/* Core Competencies Section */
+
+.core-comp-container {
+    height: 1150px;
+    background-color: #fff;
+}
+
+.core-comp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.core-comp-title h2 {
+    margin-left: 11%;
+    font-size: 44px;
+    color: #023B31;
+    padding: 75px 0px 30px 0px;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.core-comp-image img {
+    width: 600px;
+    height: 600px;
+}
+
+.capabilities {
+    width: 595px;
+}
+
+.capabilities-info-content {
+    margin-bottom: 25px;
+}
+
+.capabilities-info-content h3 {
+    display: inline-block;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color:#023B31;
+    font-family: 'Termina', Helvetica, Arial;
+}
+
+.capabilities-info-content hr {
+    display: inline-block;
+}
+
+.capabilities-info-content p {
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 8px;
+    color:#525252;
+    font-family: 'Montserrat', Helvetica, Arial;
+}
+
+.learn-more {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.capabilities-info-content span {
+    color: rgb(95, 163, 0);
+    font-weight: bold;
+}
+
+.capabilities-financial hr {
+    width: 280px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.capabilities-project hr {
+    width: 305px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.capabilities-data hr {
+    width: 387px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.capabilities-acquisition hr {
+    width: 425px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
